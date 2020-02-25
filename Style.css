@@ -1,0 +1,67 @@
+*{
+	box-sizing: border-box;
+}
+
+header{
+	background-color: royalblue;
+}
+
+nav{
+	background-color: gray;
+}
+	
+article{
+	background-color: brown;
+}
+
+aside{
+	background-color: red;
+}
+	
+footer{
+	background-color: yellow;
+}
+
+section{
+	background-color: orange;
+}
+
+#cyan{
+	background-color:cyan;
+}
+
+#orange{
+	background-color:orange;
+}
+
+.jumbotron{
+background-color:steelblue;
+border-radius:2.0rem;
+color:white;
+}
+.navbar{
+ background-color: SteelBlue;
+}
+.navbar .nav-link{
+color:white;
+}
+.nav-link:hover{
+color:gray;
+}
+.navbar-brand{
+color:black;
+}
+img{
+    width: 500px;
+    height: 600px;
+}
+.carousel-inner{
+  height:900px;
+
+}
+
+.carousel-inner img{
+	width:80%;
+	height:80%;
+	
+}

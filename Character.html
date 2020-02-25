@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Grid Practice</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+		
+		<link rel="stylesheet" href="Style.css">
+	</head>
+	<body>
+	<center>
+		<header>On My Block</header>
+		
+		<section id='pictures' class="carousel slide container-fluid" data-ride="carousel">
+            <ul class="carousel-indicators">
+                <li data-target="#pictures" data-slide-to="0" class="active"></li>
+                <li data-target="#pictures" data-slide-to="1"></li>
+                <li data-target="#pictures" data-slide-to="2"></li>
+			</ul>
+			<div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src='on-my-block.jpg' alt="On my Block">
+                </div>
+                <div class="carousel-item">
+                    <img src='images.jpg' alt="On my block">
+                </div>
+                <div class="carousel-item">
+                    <img src='On.jpg' alt="Block">
+                </div>
+			</div>
+			<a class="carousel-control-prev" href="#pictures" data-slide="prev"><span class="carousel-control-prev-icon"></span></a>
+			<a class="carousel-control-next" href="#pictures" data-slide="next"><span class="carousel-control-next-icon"></span></a>
+        </section>  
+	
+		<section class="row">
+		
+		<nav>
+			<button type="button" class="dropdown-toggle" data-toggle="dropdown">Characters</button>
+				<ul class="dropdown-menu">
+					<li class="dropdown-item" href="#2">Monse Finnie</a></li>
+					<li class="dropdown-item" href="#3">Ruby Martinez</a></li>		
+					<li class="dropdown-item" href="#4">Cesar Diaz</a></li>
+				</ul>	
+			
+			<div>	
+				<button data-toggle="collapse" data-target="#0">Description</button>
+			</div>
+			
+				<button data-toggle="collapse" data-target="#1">Availability</button>
+			</div>
+					
+		</nav>
+			<div>
+			<button type="button" class="dropdown-toggle" data-toggle="dropdown">Description</button>
+			<p class="collapse" id="#0">A coming-of-age story about four bright, street-savvy friends navigating their way through high school in the gritty inner city of South Central Los Angeles. Dealing with the danger of getting their friend out of a gang and friends turning into romance, danger is constant.</p>
+			</div>
+			<div>
+			<p class="collapse" id="#1">HEY</p>
+	
+		
+	</body>
+</html>
